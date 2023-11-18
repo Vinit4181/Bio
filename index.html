@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<link rel="icon" type="image/jpg" href="img/IMG_Thumbnail.jpg">
+	<title>Vinit Patel</title>
+	<link rel="stylesheet" type="text/css" href="semantic/out/semantic.min.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<script src="semantic/out/semantic.min.js"></script>
+</head>
+
+
+<body>
+	<div style="background-color:#1b1b1b">
+		<div style="vertical-align:baseline;padding-top:30px;padding-bottom:30px;padding-right:30px" align="Right">
+			<font size="30" style="color:#F2F3F4;font-size=30vw"><b>Vinit Patel</b></font>
+		</div>
+
+	</div>
+	</div>
+
+	<div class="ui two column stackable center aligned grid" style="background-image:url(img/Cover.jpg)">
+		<div class="ui top aligned stackable grid container">
+			<div class="row">
+
+				<div class="w3-content w3-display-container image seven wide floated column">
+					<img class="ui bordered rounded image mySlides" src="img/IMG_20231116_232809.jpg">
+					<img class="ui bordered rounded image mySlides" src="img/IMG_20231116_230649.jpg">
+					<button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+					<button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+					<button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+				</div>
+
+				<script>
+					var slideIndex = 1;
+					showDivs(slideIndex);
+
+					function plusDivs(n) {
+						showDivs(slideIndex += n);
+					}
+
+					function showDivs(n) {
+						var i;
+						var x = document.getElementsByClassName("mySlides");
+						if (n > x.length) { slideIndex = 1 }
+						if (n < 1) { slideIndex = x.length }
+						for (i = 0; i < x.length; i++) {
+							x[i].style.display = "none";
+						}
+						x[slideIndex - 1].style.display = "block";
+					}
+				</script>
+
+				<div class="nine wide column">
+
+
+					<div class="ui segments  raised green" style="width:100%;">
+						<div class="ui segment" style="background-color:#87b8ce">
+							<img class="ui image mini" align=right src="img/baby.png"></img>
+							<h1 style="vertical-align:baseline">Birth</h1>
+						</div>
+
+						<div class="ui segment  list">
+							<div class="item">
+								<img class="ui image" src="img/place-marker.png" width="20" height="20" />
+								<div style="vertical-align:baseline" class="content">
+									<div style="padding-top:3px" class="header">
+										<font size="2.5">India</font>
+									</div>
+								</div>
+							</div>
+
+							<div class="item" style="padding-top:7px;">
+								<img class="ui image" src="img/birth-date.png" width="20" height="20" />
+								<div style="vertical-align:baseline" class="content">
+									<div style="padding-top:2px" class="header">
+										<font size="2.5">March 3 , 1996</font>
+									</div>
+								</div>
+							</div>
+
+							<div class="item" style="padding-top:7px;">
+								<img class="ui image" src="img/home.png" width="20" height="20" />
+								<div style="vertical-align:baseline" class="content">
+									<div style="padding-top:2px;padding-bottom:17px" class="header">
+										<font size="2.5">Vajifa Faliya, Vankal</font>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="ui segments  raised green" style="width:100%;">
+						<div class="ui segment" style="background-color:#7bbd8d">
+							<img class="ui image mini" align=right src="img/contacts.png"></img>
+							<h1 style="vertical-align:baseline">Bio</h1>
+						</div>
+
+						<div class="ui segment  list">
+							<div class="item">
+								<img class="ui image" src="img/height.png" width="20" height="20" />
+								<div style="vertical-align:baseline" class="content">
+									<div style="padding-top:3px" class="header">
+										<font size="2.5">5 ft 2 in</font>
+									</div>
+								</div>
+							</div>
+
+							<div class="item" style="padding-top:7px;">
+								<img class="ui image" src="img/scale.png" width="20" height="20" />
+								<div style="vertical-align:baseline" class="content">
+									<div style="padding-top:2px" class="header">
+										<font size="2.5"> 140 lbs ( 63 kg )</font>
+									</div>
+								</div>
+							</div>
+
+							<div class="item" style="padding-top:7px;">
+								<img class="ui image" src="img/home-page.png" width="20" height="20" />
+								<div style="vertical-align:baseline" class="content">
+									<div style="padding-top:2px;padding-bottom:17px" class="header">
+										<font size="2.5">Elmwood Park, New jersey, U.S.A.</font>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="ui segments  raised green" style="width:100%;">
+						<div class="ui segment" style="background-color:#B17D7B">
+							<img class="ui image mini" align=right src="img/family-512.png"></img>
+							<h1 style="vertical-align:baseline">Family</h1>
+						</div>
+
+						<div class="ui segment  list">
+
+							<div class="item">
+								<img class="ui image" src="img/father.png" width="20" height="20" />
+								<div style="vertical-align:baseline" class="content">
+									<div style="padding-top:2px" class="header">
+										<font color="black" size="2.7">Father : </font>
+										<font size="2.5">Bharatkumar Chhaganbhai Patel</font>
+									</div>
+								</div>
+							</div>
+
+							<div class="item" style="padding-top:7px;">
+								<img class="ui image" src="img/mother.png" width="20" height="20" />
+								<div style="vertical-align:baseline" class="content">
+									<div style="padding-top:2px" class="header">
+										<font color="black" size="2.7">Mother : </font>
+										<font size="2.5">Vanitaben Bharatbhai Patel</font>
+									</div>
+								</div>
+							</div>
+
+							<div class="item" style="padding-top:7px;">
+								<img class="ui image" src="img/boy.png" width="20" height="20" />
+								<div style="vertical-align:baseline" class="content">
+									<div style="padding-top:2px;padding-bottom:17px" class="header">
+										<font color="black" size="2.7">Brother : </font>
+										<font size="2.5">Shivam Bharatbhai Patel</font>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="ui segments  raised yellow" style="width:100%;">
+						<div class="ui segment" style="background-color:#CBAB58">
+							<img class="ui image mini" align=right src="img/education.png"></img>
+							<h1 style="vertical-align:baseline">Education</h1>
+						</div>
+
+						<div class="ui segment list">
+							<div class="item">
+								<img class="ui image" src="img/certificate.png" width="20" height="20" />
+								<div style="vertical-align:baseline" class="content">
+									<div style="padding-top:2px" class="header">
+										<font size="2.5">Diploma Electrical Engineering</font>
+									</div>
+								</div>
+							</div>
+
+							<div class="item" style="padding-top:7px;">
+								<img class="ui image" src="img/university-campus.png" width="20" height="20" />
+								<div style="vertical-align:baseline" class="content">
+									<div style="padding-top:2px" class="header">
+										<font size="2.5">Government Polytechnic College</font>
+									</div>
+								</div>
+							</div>
+
+							<div class="item" style="padding-top:7px;">
+								<img class="ui image" src="img/graduation-cap--v1.png" width="20" height="20" />
+								<div style="vertical-align:baseline" class="content">
+									<div style="padding-top:2px;padding-bottom:17px" class="header">
+										<font size="2.5">2017</font>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+<!-- 
+					<div class="ui segments  raised yellow" style="width:100%;">
+						<div class="ui segment" style="background-color:#2f7aae">
+							<img class="ui image mini" align=right
+								src="https://w7.pngwing.com/pngs/736/127/png-transparent-job-hunting-employment-website-computer-icons-employment-blue-resume-logo.png"></img>
+							<h1 style="vertical-align:baseline">Career</h1>
+						</div>
+
+						<div class="ui segment list">
+							<div class="item">
+								<img class="ui image" src="img/settings-3--v1.png" width="20" height="20" />
+								<div style="vertical-align:baseline" class="content">
+									<div style="padding-top:2px" class="header">
+										<font size="3">Supplier Quality Engineer</font>
+									</div>
+								</div>
+							</div>
+
+							<div class="item" style="padding-top:7px;">
+								<img class="ui image"
+									src="https://yt3.googleusercontent.com/38bxvrziAP2Ksvzoxjo9xLJqpgC8qusfCFuHL0gDpTKJ7DtyjmEMhJPYYFofKWWLPnZzMFRdsw=s900-c-k-c0x00ffffff-no-rj"
+									width="20" height="20" />
+								<div style="vertical-align:baseline" class="content">
+									<div style="padding-top:2px;padding-bottom:17px" class="header">
+										<u>
+											<font size="2.5" style="color:blue"><a
+													href="https://www.lockheedmartin.com/" target="_blank">Lockheed
+													Martin Space</a></font>
+										</u>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div> -->
+
+					<div class="ui segments  raised yellow" style="width:100%;">
+						<div class="ui segment" style="background-color:#81A255">
+							<img class="ui image mini" align=right
+								src="https://img.icons8.com/ios-filled/512/000000/camera.png" />
+							<h1 style="vertical-align:baseline">Hobbies</h1>
+						</div>
+
+						<div class="ui segment list">
+							<div class="item">
+								<img class="ui image" src="https://img.icons8.com/ios-filled/512/000000/cricket.png"
+									width="20" height="20" />
+								<div style="vertical-align:baseline" class="content">
+									<div style="padding-top:2px" class="header">
+										<font size="2.5">Cricket</font>
+									</div>
+								</div>
+							</div>
+
+
+
+							<div class="item">
+								<img class="ui image" src="https://img.icons8.com/ios-filled/24/000000/sport.png"
+									width="20" height="20" />
+								<div style="vertical-align:baseline" class="content">
+									<div style="padding-top:2px" class="header">
+										<font size="2.5">Sketching</font>
+									</div>
+								</div>
+							</div>
+
+							<div class="item">
+								<img class="ui image" src="https://img.icons8.com/ios/24/000000/football2--v2.png"
+									width="20" height="20" />
+								<div style="vertical-align:baseline" class="content">
+									<div style="padding-top:2px" class="header">
+										<font size="2.5">Movie</font>
+									</div>
+								</div>
+							</div>
+
+
+
+							<div class="item">
+								<img class="ui image"
+									src="https://img.icons8.com/ios-glyphs/24/000000/musical-notes.png" width="20"
+									height="20" />
+								<div style="vertical-align:baseline" class="content">
+									<div style="padding-top:2px;padding-bottom:17px" class="header">
+										<font size="2.5">Music</font>
+									</div>
+								</div>
+							</div>
+
+
+
+						</div>
+					</div>
+
+					<!--
+					<div class="ui segments  raised yellow" style="width:100%;">
+						<div class="ui segment" style="background-color:#2f7aae">
+							<img class="ui image mini" align=right src="img/permanent-job.png"></img>
+							<h1 style="vertical-align:baseline">Career</h1>
+						</div>
+
+						<div class="ui segment list">
+							<div class="item">
+								<img class="ui image" src="img/settings-3--v1.png" width="20" height="20" />
+								<div style="vertical-align:baseline" class="content">
+									<div style="padding-top:2px" class="header">
+										<font size="2.5">N/A</font>
+									</div>
+								</div>
+							</div>
+
+							<div class="item" style="padding-top:7px;">
+								<img class="ui image" src="img/na.png" width="20" height="20" />
+								<div style="vertical-align:baseline" class="content">
+									<div style="padding-top:2px;padding-bottom:17px" class="header">
+											<font size="2.5">N/A</font>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+-->
+
+					<br>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="ui" style="background-image:url(img/Cover.jpg)" align="center">
+		<br>
+		<h4 class="ui horizontal header divider">
+			<font size="5" color="white">Contact Details</font>
+		</h4><br>
+		<button onclick="window.open('https://www.facebook.com/vinit.patel.779642');" class="ui blue  circular button"><i
+				class="icon facebook"></i>Facebook</button>
+		<button onclick="window.open('https://wa.me/+15512754619?text=Hey');" class="ui  green circular  button"><i
+				class="icon whatsapp"></i>WhatsApp</button>
+		<button onclick="window.open('https://www.instagram.com/vinitpatel_96');" class="ui red  circular button"><i
+				class="icon instagram"></i>Instagram</button>
+		<br><br>
+	</div>
+</body>
+
+</html> 
